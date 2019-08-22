@@ -1,0 +1,13 @@
+:host {
+    width: 100%;
+}
+
+.body-container {
+    align-content: center;
+    padding: 20px 10px 1px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}

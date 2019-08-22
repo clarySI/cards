@@ -1,0 +1,9 @@
+.title-container {
+    display: flex;
+    align-content: initial;
+    font-size: 1.2rem;
+}
+
+.title-label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

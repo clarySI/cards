@@ -1,0 +1,9 @@
+html {
+    display: flex;
+    height: 100%;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+}

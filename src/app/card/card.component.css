@@ -1,0 +1,38 @@
+:host {
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid black;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    flex-direction: column;
+    margin: 20px;
+    width: 30%;
+}
+
+.app-container {
+    display: flex;
+    width: 100%;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.parrafo {
+    display: flex;
+    padding: 5px 15px;
+    text-align: justify;
+}
+
+.id-header {
+    font-size: 1.2rem;
+    padding: 0 2px;
+}
+
+.id-footer {
+    float: right;
+    padding: 10px 5px;
+}

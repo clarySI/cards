@@ -1,0 +1,23 @@
+<div class="app-container">
+    <article class="card-container" *ngFor="let listcard of listCard">
+        <div style="display:inline-flex;">
+            <app-title></app-title>
+            <span class="id-header"> {{listcard.id}}</span>
+        </div>
+        <div>
+            <app-body-card></app-body-card>
+            <p class="parrafo">{{listcard.content}}</p>
+        </div>
+
+        <div>
+            <span class="id-footer">{{listcard.id}}</span>
+            <app-footer-card></app-footer-card>
+        </div>
+
+
+
+
+
+    </article>
+
+</div>
